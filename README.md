@@ -1,6 +1,6 @@
 # MazeRunner
 
-In this project we are asked to implement a scenario about a robot that has to carry basket balls and put them in a basket.
+In this project we are asked to implement a scenario about a robot that has to carry small ball and put it in a basket.
 We are given with a map in this project. First we need to make a map of the environment and then make the robot grab the ball 
 and then according to the map we will put it into some part of the map. We need to score 2 points for that purpose (to get out of the jail).
 
@@ -28,5 +28,3 @@ We have to implement a search algorithm here because we need to take some action
 
 # Claw:
 In order to get the ball we needed to use the medium regulated motor. We have predefined some angles to grab the ball. We made the robot go the half length of a cell and then open its claw using medium regulated motor with a some predefined degree. After grabbing the object we rotated the medium regulated motor to the opposite direction with the same amount so we grabbed the ball. In order to get the correct angle we have tried a few times. We have used mostly constants for already predetermined degrees. 
-
-For now we don't have any general architecture but we are planning to use a convertible one. We will wait for the inputs in a big loop and then make the individual tasks different methods so that we can call them. We will call methods accordingly to the given inputs. Maybe if we get stuck with the architecture we can convert to subsumption architecture and make the tasks behaviours but that is not for sure for today. 
